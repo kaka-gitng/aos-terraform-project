@@ -111,3 +111,17 @@ variable "ec2_keypair_name" {
   description   = "ec2 keypair"
   type          = string
 }
+
+# route-53 variables
+variable "domain_name" {
+  default       = "kaka-aws.com"
+  description   = "domain name"
+  type          = string
+}
+
+# record name variables
+variable "record_name" {
+  default       = "www"
+  description   = "sub domain name"
+  type          = string
+}
