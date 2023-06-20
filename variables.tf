@@ -107,7 +107,7 @@ variable "ec2_instance_type" {
 }
 
 variable "ec2_keypair_name" {
-  default       = "awsva.pem"
+  default       = "awsva"
   description   = "ec2 keypair"
   type          = string
 }
